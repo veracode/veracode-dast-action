@@ -1,6 +1,6 @@
 # Veracode DAST Action
 
-Veracode DAST Action starts Veracode DAST scanan as an action on any GitHub pipeline. It requires a DAST scan to be available on the Veracode platform and restarts the scan.
+Veracode DAST Action starts Veracode DAST scan as an action on any GitHub pipeline. It requires a DAST scan to be already configured on the Veracode platform and restarts the scan.
 
 ## About
 
