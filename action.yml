@@ -14,12 +14,15 @@ inputs:
   token:
     description: 'your GITHUB_TOKEN'
     required: true
+    default: ${{ github.token }}
   owner:
     description: 'owner of the repo'
     required: true
+    default: ${{ github.repository_owner }}
   repo:
     description: 'repo name'
     required: true
+    default: ${{ github.event.repository.name }}
 runs:
   using: 'node20'
   main: 'dist/index.js'
