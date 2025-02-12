@@ -58,4 +58,4 @@ An exampkle JSON file would look like this
   }
 }
 ````
-A full documentation about the JSON payload and the API used in the background can be found on [here]https://docs.veracode.com/r/c_dynamic_intro)
+A full documentation about the JSON payload and the API used in the background can be found [here](https://docs.veracode.com/r/c_dynamic_intro)
